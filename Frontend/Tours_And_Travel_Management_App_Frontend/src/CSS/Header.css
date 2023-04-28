@@ -1,0 +1,30 @@
+nav {
+    background-color: #2c9ca6;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+nav .navbar-collapse.collapse {
+    display: block;
+}
+
+@media (max-width: 991px) {
+    nav .navbar-collapse.collapse {
+        overflow: hidden;
+    }
+
+    nav .navbar-collapse.active {
+        height: 45vh !important;
+    }
+}
+
+nav .navbar-collapse {
+    transition: .6s all ease-in-out;
+    height: 0 !important;
+}
