@@ -1,4 +1,4 @@
-# SAFARI-Tours_And_Travel_Management_App
+# SAFARI - Tours And Travel Management App
 
 Project Title :- SAFARI - Tours And Travel Management App
 
